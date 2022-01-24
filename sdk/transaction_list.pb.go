@@ -8,6 +8,7 @@ package sdk
 
 import (
 	proto "github.com/golang/protobuf/proto"
+	services "github.com/hashgraph/hedera-protobufs-go/services"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
