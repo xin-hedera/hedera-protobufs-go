@@ -126,7 +126,6 @@ func file_transaction_list_proto_init() {
 	if File_transaction_list_proto != nil {
 		return
 	}
-	file_transaction_proto_init()
 	if !protoimpl.UnsafeEnabled {
 		file_transaction_list_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*TransactionList); i {
