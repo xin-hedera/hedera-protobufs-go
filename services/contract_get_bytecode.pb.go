@@ -4,7 +4,7 @@
 // 	protoc        v3.17.3
 // source: contract_get_bytecode.proto
 
-package proto
+package services
 
 import (
 	proto "github.com/golang/protobuf/proto"

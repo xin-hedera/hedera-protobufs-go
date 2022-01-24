@@ -4,7 +4,7 @@
 // 	protoc        v3.17.3
 // source: token_fee_schedule_update.proto
 
-package proto
+package services
 
 import (
 	proto "github.com/golang/protobuf/proto"

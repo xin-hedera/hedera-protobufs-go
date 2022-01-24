@@ -4,7 +4,7 @@
 // 	protoc        v3.17.3
 // source: smart_contract_service.proto
 
-package proto
+package services
 
 import (
 	proto "github.com/golang/protobuf/proto"

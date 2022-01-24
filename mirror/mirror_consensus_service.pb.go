@@ -23,7 +23,7 @@
 // 	protoc        v3.17.3
 // source: mirror_consensus_service.proto
 
-package com_hedera_mirror_api_proto
+package mirror
 
 import (
 	proto "github.com/golang/protobuf/proto"

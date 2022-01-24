@@ -4,7 +4,7 @@
 // 	protoc        v3.17.3
 // source: exchange_rate.proto
 
-package proto
+package services
 
 import (
 	proto "github.com/golang/protobuf/proto"
