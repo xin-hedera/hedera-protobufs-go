@@ -42,7 +42,7 @@ type ContractCallTransactionBody struct {
 	unknownFields protoimpl.UnknownFields
 
 	//*
-	// The contract to call
+	// the contract instance to call, in the format used in transactions
 	ContractID *ContractID `protobuf:"bytes,1,opt,name=contractID,proto3" json:"contractID,omitempty"`
 	//*
 	// the maximum amount of gas to use for the call
