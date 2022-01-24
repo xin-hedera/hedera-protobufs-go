@@ -37,7 +37,7 @@ type TransactionList struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	TransactionList []*Transaction `protobuf:"bytes,1,rep,name=transaction_list,json=transactionList,proto3" json:"transaction_list,omitempty"`
+	TransactionList []*services.Transaction `protobuf:"bytes,1,rep,name=transaction_list,json=transactionList,proto3" json:"transaction_list,omitempty"`
 }
 
 func (x *TransactionList) Reset() {
@@ -72,7 +72,7 @@ func (*TransactionList) Descriptor() ([]byte, []int) {
 	return file_transaction_list_proto_rawDescGZIP(), []int{0}
 }
 
-func (x *TransactionList) GetTransactionList() []*Transaction {
+func (x *TransactionList) GetTransactionList() []*services.Transaction {
 	if x != nil {
 		return x.TransactionList
 	}
@@ -110,7 +110,7 @@ func file_transaction_list_proto_rawDescGZIP() []byte {
 var file_transaction_list_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_transaction_list_proto_goTypes = []interface{}{
 	(*TransactionList)(nil), // 0: proto.TransactionList
-	(*Transaction)(nil),     // 1: proto.Transaction
+	(*services.Transaction)(nil),     // 1: proto.Transaction
 }
 var file_transaction_list_proto_depIdxs = []int32{
 	1, // 0: proto.TransactionList.transaction_list:type_name -> proto.Transaction
